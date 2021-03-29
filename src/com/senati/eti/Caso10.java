@@ -19,8 +19,8 @@ public class Caso10 {
 		
 		
 		System.out.println("\n--------------RESULTADOS--------------");
-		System.out.println("El area del rectangulo es..........:" + df.format(area));
-		System.out.println("El perimetro del rectangulo es.....:" + df.format(perimetro));
+		System.out.println("El area del circulo es..........:" + df.format(area));
+		System.out.println("El perimetro del circulo es.....:" + df.format(perimetro));
 		
 		
 		
