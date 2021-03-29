@@ -16,9 +16,11 @@ public class Caso16 {
 		float t = sc.nextFloat();
 		
 		float sueldo = t * h;
-		float total = sueldo * 1.05f;
-		float bono = total - sueldo;
-		float dolares = total/3.24f;
+		float bono = sueldo * 0.05f;
+		float total = sueldo + bono ;
+        float dolares = total/3.24f;
+
+
 		
 		System.out.println("--------------Resultados------------");
 		System.out.println("El sueldo es de...............: "+ df.format(sueldo));
