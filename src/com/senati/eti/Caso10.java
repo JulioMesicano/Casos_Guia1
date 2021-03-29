@@ -1,11 +1,13 @@
 package com.senati.eti;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Caso10 {
 
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("#.0");
 		
 		System.out.print("Ingrese el radio del circulo ......:");
 		float radio = sc.nextInt();
@@ -17,8 +19,8 @@ public class Caso10 {
 		
 		
 		System.out.println("\n--------------RESULTADOS--------------");
-		System.out.println("El area del rectangulo es..........:" + area);
-		System.out.println("El perimetro del rectangulo es.....:" + perimetro);
+		System.out.println("El area del rectangulo es..........:" + df.format(area));
+		System.out.println("El perimetro del rectangulo es.....:" + df.format(perimetro));
 		
 		
 		
