@@ -12,7 +12,7 @@ public class Caso21 {
 		float disminuye = vn * 0.88f;
 		
 		System.out.println("\n------------------RESULTADOS---------------");
-		System.out.println("El  gasto disminuido en 15 % es de " + disminuye);
+		System.out.println("El  gasto disminuido en 12 % es de " + disminuye);
 		
 		
 		
